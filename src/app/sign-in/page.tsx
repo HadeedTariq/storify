@@ -1,9 +1,11 @@
-import GoogleLogin from "@/components/ui/GoogleLogin";
+import UserAuthForm from "@/components/UserAuthForm";
 
-type Props = {};
-
-const Page = (props: Props) => {
-  return <div></div>;
+const Page = () => {
+  return (
+    <div className="flex justify-center items-center min-h-[80vh]">
+      <UserAuthForm />
+    </div>
+  );
 };
 
 export default Page;

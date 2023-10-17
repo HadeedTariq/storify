@@ -1,8 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
-type Props = {};
 
-const SignIn = (props: Props) => {
+const SignIn = () => {
   const router = useRouter();
   return (
     <button

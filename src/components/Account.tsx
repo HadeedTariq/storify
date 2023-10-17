@@ -1,4 +1,3 @@
-import { getAuthSession } from "@/utils/authOptions";
 import React from "react";
 import Image from "next/image";
 

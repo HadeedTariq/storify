@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
+import { getAuthSession } from "@/utils/authOptions";
 import SearchBar from "./SearchBar";
 import Account from "./Account";
-import { getAuthSession } from "@/utils/authOptions";
 import SignIn from "./ui/SignIn";
 
 type Props = {};
