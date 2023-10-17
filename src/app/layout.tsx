@@ -1,6 +1,8 @@
 import { Providers } from "@/utils/Providers";
 import "./globals.css";
 import type { Metadata } from "next";
+import { Box } from "@mui/material";
+import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
   title: "Storify",
@@ -16,7 +18,12 @@ export default function RootLayout({
     <html lang="en">
       {/* <body className="bg-gradient-to-r from-purple-200 via-green-200 to-blue-200"> */}
       <body className="bg-slate-900 text-white">
-        <Providers>{children}</Providers>
+        <Providers>
+          <Box component={"div"}>
+            <NavBar />
+            {children}
+          </Box>
+        </Providers>
       </body>
     </html>
   );

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+}
+.css-1dj55xk-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.Mui-disabled {
+  color: white;
+  background-color: rgb(21, 12, 34);
+}

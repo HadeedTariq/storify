@@ -14,15 +14,10 @@ const userSchema = new Schema({
   password: {
     type: String,
   },
-  username: {
-    type: String,
-    required: true,
-    unique: true,
-  },
   image: {
     type: String,
     required: true,
   },
 });
 
-export const User = models.users || model("users", userSchema);
+export const User = models.Users || model("Users", userSchema);
